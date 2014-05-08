@@ -1,11 +1,6 @@
 Rails.application.routes.draw do
-  get 'pages/resume'
-
-  get 'pages/consulting'
-
-  get 'pages/contact'
-
-  get 'pages/blog'
+  get '/:action', controller: :pages
+  root to: 'pages#resume'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
