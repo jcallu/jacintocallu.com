@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'pages/resume'
+
+  get 'pages/consulting'
+
+  get 'pages/contact'
+
+  get 'pages/blog'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
