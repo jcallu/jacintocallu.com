@@ -20,16 +20,16 @@ body
   .page
     .header
       .tab
-        a[href='/']  Resume
+        a[href='/' style="padding-left:40px"]  Resume
       .tab
-        a[href='/consulting']  Consulting
+        a[href='/consulting']
       h1.logo.tab[style="padding-left:20px"]
         .first Jacinto
         .last Callu
       .tab[style="padding-left:20px"]
-        a[href='/contact']  Contact
-      .tab
         a[href='/blog']  Blog
+      .tab
+        a[href='/contact']  Contact
     .content
       = yield
       .space[style="padding-top:100px"]
