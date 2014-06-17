@@ -24,3 +24,4 @@ zeus.json
 .ruby-gemset
 db/.pgpass
 files/
+config/app_env.txt
