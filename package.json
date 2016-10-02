@@ -1,0 +1,27 @@
+{
+  "name": "jacintocallu.com",
+  "version": "0.0.1",
+  "description": "jacintocallu.com",
+  "main": "",
+  "engines": {
+    "node": "4.5.0"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "contributors": [
+    "Jacinto Callu"
+  ],
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "author": "Jacinto Callu",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-alpha.1",
+    "serve-favicon": "^2.3.0"
+  },
+  "private": "true"
+}

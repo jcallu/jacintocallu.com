@@ -1,0 +1,22 @@
+#BodyBackground {
+  background-image: url('../img/gray_bg.jpg') ;
+  z-index: 0;
+}
+.content {
+  z-index: 10;
+  background-color: white;
+}
+
+.content {
+  padding-left: 100px;
+  padding-top: 100px;
+  width: 80%;
+  height: 175%;
+  float: left;
+}
+
+.margin {
+  float: left;
+  width: 10%;
+  height: 100%;
+}
